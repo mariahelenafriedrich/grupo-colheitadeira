@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GRUPO COLHEITADEIRA</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: #000;
+      margin: 0;
+      padding: 20px;
+    }
+    header {
+      background-color: #FFA500; /* Laranja */
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    h2 {
+      color: #333;
+      margin-top: 10px;
+    }
+    button {
+      background-color: #90EE90; /* Verde claro */
+      color: #000;
+      border: none;
+      padding: 10px 20px;
+      margin: 20px 0;
+      font-size: 1em;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    #texto {
+      display: none;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-left: 5px solid #FFA500;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>GRUPO COLHEITADEIRA</h1>
+    <h2>Colheitadeira John Deere: entra grão, sai produtividade… e ainda sobra tempo pra tomar um café no fim da lavoura!</h2>
+    <button onclick="mostrarTexto()">Avançar</button>
+  </header>
+
+  <div id="texto">
+    <p><strong>O Super-Herói do Campo (Que Não Usa Capa, Só Tecnologia de Ponta)</strong></p>
+    <p>Se você acha que só as pessoas fazem o trabalho pesado no campo, é porque nunca viu uma colheitadeira John Deere em ação! Essas belezuras da engenharia não precisam de férias, não reclamam do trabalho e são superpoderosas – tudo isso enquanto trabalham com mais estilo e eficiência do que qualquer outra máquina agrícola. Então, prepare-se para conhecer a estrela do campo!</p>
+
+    <p><strong>1. Transformando o Caos em Ordem</strong><br>
+    Você sabia que uma colheitadeira John Deere é praticamente o "aspirador de pó" do campo? Ela vai lá, se aproxima das plantações de grãos e começa a engolir tudo com precisão, separando o grão da palha enquanto os outros ficam só assistindo. Ela é a personalidade organizada do setor agrícola: tudo o que entra nela, sai organizado e pronto para ser armazenado. Não perde tempo com desordem, e quem não gosta de uma máquina eficiente?</p>
+
+    <p><strong>2. Tecnologia para Super-Heróis</strong><br>
+    As colheitadeiras John Deere são como a Iron Man das máquinas agrícolas. Cheias de tecnologia, elas são equipadas com sistemas de monitoramento, sensores de produtividade e até GPS para que você saiba exatamente onde está colhendo e com a maior eficiência possível. Tem até tela touchscreen para o operador. É como se a colheitadeira tivesse mais tecnologia do que o seu smartphone – e, com certeza, é mais forte também!</p>
+
+    <p><strong>3. Design que Chama Atenção</strong><br>
+    Além de eficientes, as colheitadeiras John Deere têm um design que causa impressão. Elas são imponentes, grandes e imbatíveis. Se elas fossem uma celebridade, teriam um tapete vermelho só para elas. Com seu clássico verde e amarelo, elas desfilam pelo campo de uma maneira que até o milho para para admirar. O tamanho? É grande o suficiente para fazer qualquer um pensar "uau, essa máquina é um verdadeiro monstro de produtividade!"</p>
+
+    <p><strong>4. Trabalhadoras Incansáveis</strong><br>
+    Essas máquinas não conhecem a palavra descanso. Se for hora de colher, elas estão lá, prontas para trabalhar, com uma capacidade de processamento que vai fazer você se perguntar se elas realmente têm limites. Elas colhem toneladas de grãos com uma velocidade impressionante. Enquanto você está tomando seu café, ela já deve ter terminado a maior parte do trabalho. No campo, elas são mais rápidas que um maratonista em um sprint final.</p>
+
+    <p><strong>5. Eficiência Incrível</strong><br>
+    E o melhor: a eficiência das colheitadeiras John Deere é coisa de outro mundo! Com tecnologias de separação de grãos e sistemas autônomos, elas não deixam nada para trás. Ou seja, a quantidade de grãos aproveitada é altíssima, minimizando o desperdício. Nada de "perder o que é valioso" no campo. Ela só pega o que é realmente importante!</p>
+
+    <p><strong>6. Durabilidade à Prova de Tudo</strong><br>
+    E a durabilidade? Não se preocupe, as colheitadeiras John Deere não se intimidam com os elementos. Chuva, sol, lama, e até ventania – tudo isso é parte do cotidiano de uma colheitadeira John Deere. Elas são feitas para aguentar o tranco e continuar fazendo o trabalho com a mesma qualidade e precisão do primeiro dia.</p>
+
+    <p><strong>Colheitadeira John Deere: Sua Aliada Para uma Colheita Rápida, Eficiente e Cheia de Estilo!</strong><br>
+    Com sua tecnologia avançada, design imbatível e capacidade de trabalho impressionante, a colheitadeira John Deere é a melhor amiga do agricultor. E enquanto ela faz a parte difícil, você pode ficar tranquilo sabendo que a sua colheita está em boas mãos – ou melhor, em boas rodas!</p>
+
+    <p><strong>BOA SORTE, GRUPO COLHEITADEIRA!</strong></p>
+    <footer>
+      <button onclick="voltar()">Voltar</button>
+    </footer>
+  </div>
+
+  <script>
+    function mostrarTexto() {
+      document.getElementById("texto").style.display = "block";
+    }
+    function voltar() {
+      document.getElementById("texto").style.display = "none";
+      window.scrollTo(0, 0);
+    }
+  </script>
+</body>
+</html>
